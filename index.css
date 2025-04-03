@@ -86,30 +86,34 @@
 }
 .gibberish{
     float:right;
-    background-color: aquamarine;
+    background-color: white;
 }
 .riaad-since{
     float:right;
-    background-color: yellow;
+    background-color: white;
 }
  .movingwithriaad{
     float: left;
-    background-color: yellowgreen;
+    background-color: white;
 
 }
 .whatwedo{
-    background-color: aqua;
+    background-color: white;
     display: flex;
     justify-content: space-around;
     text-align: center;
 }
 .ourservices{
-background-color: red;
+background-color: white;
 text-align: center;
+
 }
 .requestaquote{
     background-color: orange;
-    padding: 10px;
+    padding: 50px;
+    text-align: end;
+    float: left;
+    width: 40%;
 }
 .whole-form{
     margin: 0 auto;
@@ -174,11 +178,106 @@ footer{
 }
 .info{
     background-color: blue;
-    
+    width: 50%;
+    padding: 31px;
+    color: whitesmoke;
+}
+.info input{
+    padding: 10px;
+    width: 50%;
 }
 .info2{
     background-color: blue;
+    width: 50%;
+    padding: 31px 20px 10px;
+    color: whitesmoke;
+
+}
+.info2 button{
+    border: none;
+    padding: 10px;
+    width: 50%;
+    background-color: orange;
+    color: white;
+}
+.info2 input{
+    padding: 10px;
+    width: 50%;
 }
 .totalinfoandrequest{
     display: flex;
+}
+.newsletter{
+    text-align: center;
+}
+.emailaddress input{
+    border: none;
+    padding: 10px;
+    
+
+}
+.emailaddress button{
+    border: none;
+    padding: 10px;
+    color: aliceblue;
+    background-color: orange;
+    text-align: center;
+    
+}
+.emailaddress{
+    padding: 10px;
+}
+.ourblog {
+    text-align: center;
+    
+}
+.storage{
+background-color: blue;
+padding: 30px;
+color: #f0f0f0;
+}
+.Packing{
+padding: 30px;
+}
+.transport{
+padding: 30px;
+}
+.Insurance{
+    padding: 30px;
+}
+.logos{
+    padding: 80px;
+    justify-content: space-around;
+    margin-top: 400px;
+    text-align: center;
+    width: 150px;
+    height: 100px;
+    display: flex;
+    
+}
+.riaadverified{
+    background-color: blue;
+    padding: 20px;
+    display: 
+
+}
+.whychooseriaad{
+    display: flex;
+    
+}
+.weareleading{
+    padding: 40px;
+    float: right;
+}
+#chooseriaad{
+    color: orange;
+}
+#Verified{
+    color: white;
+}
+#bookonline{
+    color: orange;
+}
+#contactus{
+    text-align: center;
 }
