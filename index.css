@@ -1,0 +1,184 @@
+
+
+.navbar nav {
+    background-color: white;
+    padding: 1rem;
+}
+
+.navbar nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+.navbar nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.navbar nav a:hover {
+    color: orange
+}
+.navbar nav a:active {
+    color: #aaa;
+}
+.navbar nav a {
+    transition: color 0.1s ease;
+}
+ header{
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+    display: flex; 
+    justify-content:space-between ;
+
+}
+.contact-info{
+    text-align: left;
+    
+}
+.email{
+    text-align: right;
+}
+ .contact-info a {
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+.email a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+.email label{
+    font-size: smaller;
+}
+.contact-info label{
+    font-size: smaller;
+    text-align: left;
+}
+.background-image{ 
+    background-image: url(images/movingday.jpg); min-height: 600px;
+    background-repeat: no-repeat ;
+    position: relative;
+    background-size: cover;
+    background-attachment: scroll;
+    display: block;
+    padding: 100px 100px;
+    object-fit: contain;
+    margin: 0 auto;
+    text-align:center;
+    font-size: larger;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.background-image .button {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 16px;
+    width: 20%;
+    font-size: small;
+    font-family:"Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; ;
+}
+.background-image .button button{
+    color: white;
+}
+.gibberish{
+    float:right;
+    background-color: aquamarine;
+}
+.riaad-since{
+    float:right;
+    background-color: yellow;
+}
+ .movingwithriaad{
+    float: left;
+    background-color: yellowgreen;
+
+}
+.whatwedo{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.ourservices{
+background-color: red;
+text-align: center;
+}
+.requestaquote{
+    background-color: orange;
+    padding: 10px;
+}
+.whole-form{
+    margin: 0 auto;
+    padding: 100px ;
+}
+
+.formpart2{
+    margin: 0 auto;
+    padding: 100px;
+}
+.testimonials{
+    text-align: center;
+}
+.testimonies{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.discovermore{
+    background-color: orange;
+    padding: 40px;
+    color: #f0f0f0;
+    margin-right;
+}
+.discovermore button{
+    display: flex;
+
+    border: none;
+    padding: 15px;
+    background-color: rgb(24, 20, 20);
+    color: white;
+    font-size: small;
+}
+
+.credits{
+    background-color: rgb(24, 20, 20);
+    display: flex;
+    padding-left: 300px;
+    color: #aaa;
+}
+.credits ul{
+    list-style-type:none;
+
+}
+.icons{
+    
+    justify-content:space-around;
+}
+#copyright{
+    background-color: rgb(24, 20, 20);
+    padding: 20px;
+    text-align: center;
+    color: #aaa;
+}
+footer{
+    background-color: rgb(24, 20, 20);
+}
+
+.totalinfo{
+    display: flex;
+}
+.info{
+    background-color: blue;
+    
+}
+.info2{
+    background-color: blue;
+}
+.totalinfoandrequest{
+    display: flex;
+}
